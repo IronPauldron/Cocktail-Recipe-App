@@ -1,0 +1,239 @@
+{
+  "cocktails": {
+    "Mother Brain": {
+      "image": "Pictures/MotherBrain.jpg",
+      "description": "Samus Aran's never-ending mission to get the galaxy of space pirates is fueled by the cybernetic Chozo Suit; your'e probably going to need something a little less metallic tasting. Conquer this visually vile vial quick before it curdles but beware, copious consumption can be accompanied by a Justin Bailey-style stripdown",
+      "ingredients": [
+        "1oz Peach Shnapps",
+        "1oz Irish Cream Liqueur",
+        "Float Grenadine"
+      ],
+      "recipe": "Add peach Shnapps followed by Irish cream and drizzle with Grenadine",
+      "theme": ["game", "retro"]
+    },
+    "Nuka-coke": {
+      "image": "",
+      "description": "A radioactive twist on the classic coke, this Nuka-coke cocktail fuses the warmth of spiced rum and the smooth sweetness of vanilla vodka with a zesty splash of lime and a hint of grenadine. Topped with fizzy Coke, it’s an effervescent blast straight from the wasteland—refreshing, vibrant, and dangerously addictive.",
+      "ingredients": [
+        "1oz Spiced Rum",
+        "1oz Vanilla Vodka",
+        "0.75 oz lime juice",
+        "0.5 oz Grenadine",
+        "Coke"
+      ],
+      "recipe": "1. Fill a shaker with ice.\n2. Pour in spiced rum, vanilla vodka, lime juice, and grenadine.\n3. Shake like you’re dodging super mutants.\n4. Strain into a highball glass filled with ice.\n5. Top with Coke until the glass fizzes like a freshly tapped Nuka-coke machine.\n6. Garnish with a lime wedge (or a miniature Vault-Tec flag for flair).\n7. Sip carefully—this cocktail hits like a bottle of Quantum in the glowing sea.",
+      "theme": ["game"]
+    },
+    "Skooma": {
+      "image": "",
+      "description": "Ah, Skooma. The very name conjures images of shady back alleys, Khajiit caravans, and a potent, illicit high. This isn't just any drink; it's the moon sugar elixir whispered about in taverns and sought after in the darkest corners of Tamriel. This cocktail is not for the faint of heart—it's a potent explosion of sweet and bitter that'll knock you for six. Absolutely an acquired taste, so consider diluting it heavily with your favourite mixer if it's a bit too much.",
+      "ingredients": [
+        "1.5 oz White Rum",
+        "0.75 oz Absinthe",
+        "0.5 oz Lime Juice",
+        "0.5 oz Syrup"
+      ],
+      "recipe": "1. Combine all ingredients in a cocktail shaker with ice and shake until chilled.\n2. Strain into a small glass or two shot glasses to share with a fellow criminal.",
+      "theme": ["game"]
+    },
+    "Mojito": {
+      "image": "",
+      "description": "A refreshing mix of lime, mint, sugar, and rum.",
+      "ingredients": [
+        "50ml White Rum",
+        "1 Lime wedge",
+        "2 tsp Sugar",
+        "Mint leaves",
+        "Soda Water",
+        "Ice"
+      ],
+      "recipe": "Muddle mint, lime, and sugar in a glass. Add rum, fill with ice, and top with soda water.",
+      "theme": ["classic"]
+    },
+    "Martini": {
+      "image": "",
+      "description": "A timeless cocktail of gin and dry vermouth, served with an olive or lemon twist.",
+      "ingredients": ["60ml Gin", "10ml Dry Vermouth", "Olive or Lemon Twist"],
+      "recipe": "1. Fill a mixing glass with ice.\n2. Add gin and dry vermouth.\n3. Stir until well chilled.\n4. Strain into a chilled martini glass.\n5. Garnish with an olive or lemon twist.",
+      "theme": ["classic"]
+    },
+    "Margarita": {
+      "image": "",
+      "description": "A zesty tequila cocktail with lime and triple sec, served with a salted rim.",
+      "ingredients": [
+        "50ml Tequila",
+        "25ml Triple Sec",
+        "25ml Lime Juice",
+        "Salt (for rim)"
+      ],
+      "recipe": "1. Rub lime on the rim of a glass and dip in salt.\n2. Shake tequila, triple sec, and lime juice with ice.\n3. Strain into the prepared glass over ice.",
+      "theme": ["classic"]
+    },
+    "Old Fashioned Whiskey": {
+      "image": "",
+      "description": "A smooth whiskey cocktail with sugar, bitters, and a twist of citrus.",
+      "ingredients": [
+        "50ml Rye Whiskey",
+        "1 Sugar Cube",
+        "2 dashes Angostura Bitters",
+        "Orange Twist"
+      ],
+      "recipe": "1. Muddle sugar and bitters in a glass.\n2. Add whiskey and ice.\n3. Stir gently.\n4. Garnish with an orange twist.",
+      "theme": ["classic"]
+    },
+    "Daiquiri": {
+      "image": "",
+      "description": "A classic rum cocktail with lime juice and sugar syrup.",
+      "ingredients": ["50ml White Rum", "25ml Lime Juice", "15ml Syrup"],
+      "recipe": "1. Shake all ingredients with ice.\n2. Strain into a chilled cocktail glass.\n3. Garnish with a lime wheel.",
+      "theme": ["classic"]
+    },
+    "Whiskey Sour": {
+      "image": "",
+      "description": "A balanced mix of whiskey, lemon juice, and sugar, optionally topped with egg white for froth.",
+      "ingredients": [
+        "50ml Whiskey",
+        "25ml Lemon Juice",
+        "15ml Syrup",
+        "Egg White (optional)"
+      ],
+      "recipe": "1. Shake all ingredients (dry shake first if using egg white).\n2. Add ice and shake again.\n3. Strain into a glass with ice.\n4. Garnish with a cherry or orange slice.",
+      "theme": ["classic"]
+    },
+    "Cosmopolitan": {
+      "image": "",
+      "description": "A chic cocktail of vodka, triple sec, cranberry juice, and lime juice.",
+      "ingredients": [
+        "45ml Vodka",
+        "15ml Triple Sec",
+        "30ml Cranberry Juice",
+        "10ml Lime Juice"
+      ],
+      "recipe": "1. Shake all ingredients with ice.\n2. Strain into a chilled martini glass.\n3. Garnish with a lime wedge or orange twist.",
+      "theme": ["classic"]
+    },
+    "Negroni": {
+      "image": "",
+      "description": "A bitter and balanced Italian cocktail of gin, vermouth, and Campari.",
+      "ingredients": ["30ml Gin", "30ml Sweet Vermouth", "30ml Campari"],
+      "recipe": "1. Stir all ingredients with ice.\n2. Strain into a glass over ice.\n3. Garnish with an orange slice or twist.",
+      "theme": ["classic"]
+    },
+    "Long Island Iced Tea": {
+      "image": "",
+      "description": "A potent mix of spirits with a hint of coke for color and sweetness.",
+      "ingredients": [
+        "15ml Vodka",
+        "15ml Gin",
+        "15ml Tequila",
+        "15ml White Rum",
+        "15ml Triple Sec",
+        "25ml Lemon Juice",
+        "20ml Syrup",
+        "Coke"
+      ],
+      "recipe": "1. Shake all spirits, lemon juice, and syrup with ice.\n2. Strain into a tall glass filled with ice.\n3. Top with coke.\n4. Garnish with a lemon wedge.",
+      "theme": ["classic"]
+    },
+    "Tequila Sunrise": {
+      "image": "",
+      "description": "A visually stunning tequila cocktail with orange juice and grenadine.",
+      "ingredients": ["50ml Tequila", "100ml Orange Juice", "10ml Grenadine"],
+      "recipe": "1. Fill a glass with ice and add tequila and orange juice.\n2. Slowly pour grenadine for a sunrise effect.\n3. Garnish with an orange slice or cherry.",
+      "theme": ["classic"]
+    },
+    "Espresso Martini": {
+      "image": "",
+      "description": "A caffeinated cocktail combining vodka, coffee liqueur, and fresh espresso.",
+      "ingredients": [
+        "45ml Vodka",
+        "30ml Coffee Liqueur",
+        "30ml Fresh Espresso",
+        "10ml Syrup (optional)"
+      ],
+      "recipe": "1. Shake all ingredients with ice.\n2. Strain into a chilled martini glass.\n3. Garnish with 3 coffee beans.",
+      "theme": ["classic"]
+    },
+    "Sidecar": {
+      "image": "",
+      "description": "A classic cognac cocktail with orange liqueur and lemon juice, served with a sugared rim.",
+      "ingredients": [
+        "50ml Cognac",
+        "25ml Triple Sec",
+        "25ml Lemon Juice",
+        "Sugar (for rim)"
+      ],
+      "recipe": "1. Rub lemon on rim and dip in sugar.\n2. Shake cognac, triple sec, and lemon juice with ice.\n3. Strain into a chilled cocktail glass.",
+      "theme": ["classic"]
+    },
+    "Pina cokeda": {
+      "image": "",
+      "description": "A tropical rum cocktail blended with coconut cream and pineapple juice.",
+      "ingredients": [
+        "50ml White Rum",
+        "30ml Coconut Cream",
+        "90ml Pineapple Juice",
+        "Ice"
+      ],
+      "recipe": "1. Blend all ingredients with ice until smooth.\n2. Pour into a chilled glass.\n3. Garnish with pineapple slice and cherry.",
+      "theme": ["classic"]
+    },
+    "Mai Tai": {
+      "image": "",
+      "description": "A fruity tiki cocktail of rum, orange liqueur, lime juice, and orgeat syrup.",
+      "ingredients": [
+        "30ml White Rum",
+        "30ml Dark Rum",
+        "15ml Orange Curacao",
+        "15ml Orgeat Syrup",
+        "10ml Lime Juice"
+      ],
+      "recipe": "1. Shake all ingredients except dark rum with ice.\n2. Strain into a glass with ice.\n3. Float dark rum on top.\n4. Garnish with mint and lime.",
+      "theme": ["classic"]
+    }
+  },
+  "shots": {
+    "Tequila Shot": {
+      "image": "",
+      "description": "A strong tequila shot with salt and lime.",
+      "ingredients": ["50ml Tequila", "Salt", "Lime wedge"],
+      "recipe": "Add salt to hand, lick it, drink tequila, bite lime."
+    },
+    "Absinthe": {
+      "image": "",
+      "description": "A strong tequila shot with salt and lime.",
+      "ingredients": ["50ml Absinthe", "Sugar"],
+      "recipe": "Drip sugar into a shot of Absinthe, then wake up."
+    },
+    "AU Vodka Blue": {
+      "image": "",
+      "description": "Blue Flavoured Vodka",
+      "ingredients": ["AU Vodka Blue"],
+      "recipe": "Put it in a glass and drink it"
+    },
+    "AU Vodka Pineapple": {
+      "image": "",
+      "description": "Pineapple Flavoured Vodka",
+      "ingredients": ["AU Vodka Pineapple"],
+      "recipe": "Put it in a glass and drink it"
+    },
+    "AU Vodka Strawberry": {
+      "image": "",
+      "description": "Strawberry Flavoured Vodka",
+      "ingredients": ["AU Vodka Strawberry"],
+      "recipe": "Put it in a glass and drink it"
+    },
+    "AU Vodka Watermelon": {
+      "image": "",
+      "description": "Watermelon Flavoured Vodka",
+      "ingredients": ["AU Vodka Watermelon"],
+      "recipe": "Put it in a glass and drink it"
+    },
+    "AU Vodka Cosmic Berries": {
+      "image": "",
+      "description": "Cosmic Berries Flavoured Vodka",
+      "ingredients": ["AU Vodka Cosmic Berries"],
+      "recipe": "Put it in a glass and drink it"
+    }
+  }
+}
