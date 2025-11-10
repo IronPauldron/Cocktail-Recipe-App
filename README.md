@@ -26,3 +26,5 @@
 
 
 
+### Run The App ###
+To get the app to start run 'python cocktail_selector.py' from the console
