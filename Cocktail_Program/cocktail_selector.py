@@ -7,8 +7,9 @@ import os
 import re
 
 # --- Paths ---
-json_path = os.path.join("Reference", "drinks.json")
-stock_file = os.path.join("Reference", "stock.json")
+script_dir = os.path.dirname(os.path.abspath(__file__))
+json_path = os.path.join(script_dir, "Reference", "drinks.json")
+stock_file = os.path.join(script_dir, "Reference", "stock.json")
 
 # --- Load drinks ---
 with open(json_path, "r") as f:
