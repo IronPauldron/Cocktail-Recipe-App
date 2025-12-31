@@ -27,7 +27,7 @@ else:
 root = tk.Tk()
 root.title("Drink Selector")
 root.configure(bg="#1c1c1c")
-root.state("zoomed")  # Full screen
+root.attributes('-fullscreen', True)
 
 style = ttk.Style()
 style.configure("TFrame", background="#1c1c1c")
