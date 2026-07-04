@@ -32,10 +32,10 @@ root.attributes('-fullscreen', True)
 
 style = ttk.Style()
 style.configure("TFrame", background="#1c1c1c")
-style.configure("TLabel", background="#1c1c1c", foreground="white", font=("Arial", 14))
-style.configure("Title.TLabel", font=("Arial", 22, "bold"), foreground="#ffcc00", background="#1c1c1c")
-style.configure("Nav.TButton", font=("Arial", 16, "bold"), padding=10)
-style.configure("Exit.TButton", font=("Arial", 16, "bold"), padding=10)
+style.configure("TLabel", background="#1c1c1c", foreground="white", font=("Arial", 18))
+style.configure("Title.TLabel", font=("Arial", 30, "bold"), foreground="#ffcc00", background="#1c1c1c")
+style.configure("Nav.TButton", font=("Arial", 22, "bold"), padding=15)
+style.configure("Exit.TButton", font=("Arial", 18, "bold"), padding=10)
 
 # --- Top navigation bar ---
 nav_bar = ttk.Frame(root)
@@ -50,7 +50,7 @@ main_frame = ttk.Frame(root)
 main_frame.pack(fill="both", expand=True)
 
 # --- Left list panel ---
-list_frame = ttk.Frame(main_frame, width=250)
+list_frame = ttk.Frame(main_frame, width=350)
 list_frame.pack(side="left", fill="y", padx=10, pady=10)
 
 # --- Top frame inside list_frame for search and filters ---
@@ -262,7 +262,7 @@ def display_cocktail(name):
     cocktail_title.config(text=name)
     cocktail_title.config(foreground="red" if is_out_of_stock(data["ingredients"]) else "#ffcc00")
     try:
-        image = Image.open(data["image"]).resize((150,150))
+        image = Image.open(data["image"]).resize((200,250))
         photo = ImageTk.PhotoImage(image)
         cocktail_image_label.config(image=photo, text="")
         cocktail_image_label.image = photo
@@ -289,9 +289,31 @@ def display_shot(name):
 
 def populate_list(data_dict):
     item_list.delete(0, tk.END)
-    for i, name in enumerate(data_dict.keys()):
+    
+    # Separate in-stock and out-of-stock items
+    in_stock_items = []
+    out_of_stock_items = []
+    
+    for name, data in data_dict.items():
+        if is_out_of_stock(data["ingredients"]):
+            out_of_stock_items.append(name)
+        else:
+            in_stock_items.append(name)
+    
+    # Sort each group alphabetically
+    in_stock_items.sort()
+    out_of_stock_items.sort()
+    
+    # Add in-stock items first (in white)
+    for i, name in enumerate(in_stock_items):
         item_list.insert(tk.END, name)
-        item_list.itemconfig(i, foreground="red" if is_out_of_stock(data_dict[name]["ingredients"]) else "white")
+        item_list.itemconfig(i, foreground="white")
+    
+    # Add out-of-stock items after (in red)
+    offset = len(in_stock_items)
+    for i, name in enumerate(out_of_stock_items):
+        item_list.insert(tk.END, name)
+        item_list.itemconfig(offset + i, foreground="red")
 
 def show_cocktail_list():
     global current_list_type

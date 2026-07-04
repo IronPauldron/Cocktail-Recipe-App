@@ -136,7 +136,7 @@
       "theme": ["classic"]
     },
     "Tequila Sunrise": {
-      "image": "",
+      "image": "Pictures/taquila-sunrise.jpeg",
       "description": "A visually stunning tequila cocktail with orange juice and grenadine.",
       "ingredients": ["50ml Tequila", "100ml Orange Juice", "10ml Grenadine"],
       "recipe": "1. Fill a glass with ice and add tequila and orange juice.\n2. Slowly pour grenadine for a sunrise effect.\n3. Garnish with an orange slice or cherry.",
@@ -189,6 +189,30 @@
         "10ml Lime Juice"
       ],
       "recipe": "1. Shake all ingredients except dark rum with ice.\n2. Strain into a glass with ice.\n3. Float dark rum on top.\n4. Garnish with mint and lime.",
+      "theme": ["classic"]
+    },
+    "Prickly Pear Margarita": {
+      "image": "",
+      "description": "A desert-inspired twist on the classic margarita with the unique sweet-tart flavor of prickly pear. The vibrant magenta color makes this a showstopper.",
+      "ingredients": [
+        "50ml Tequila",
+        "25ml Triple Sec",
+        "25ml Lime Juice",
+        "45ml Prickly Pear Juice",
+        "Salt (for rim)"
+      ],
+      "recipe": "1. Rub lime on the rim of a glass and dip in salt.\n2. Shake tequila, triple sec, lime juice, and prickly pear juice with ice.\n3. Strain into the prepared glass over ice.\n4. Garnish with a lime wheel.",
+      "theme": ["classic"]
+    },
+      "Japanese Slipper": {
+      "image": "",
+      "description": "A vibrant, sweet-tart cocktail that's dangerously easy to drink. The melon liqueur gives it a bright green hue while the citrus keeps it refreshing.",
+      "ingredients": [
+        "30ml Midori",
+        "30ml Cointreau",
+        "30ml Lemon Juice"
+      ],
+      "recipe": "1. Shake all ingredients with ice.\n2. Strain into a chilled cocktail glass.\n3. Garnish with a cherry or lemon wheel.",
       "theme": ["classic"]
     }
   },
